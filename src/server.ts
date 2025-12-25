@@ -6,4 +6,3 @@ const user = {
 
 console.log(user.name);
 console.log(user.name);
-console.log(user.name);
