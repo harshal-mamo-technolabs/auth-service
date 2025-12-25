@@ -1,1 +1,7 @@
-console.log("welcome to full stack engineering")
+console.log("welcome to full stack engineering");
+
+const user = {
+  name: "harshal",
+};
+
+console.log(user.name);
