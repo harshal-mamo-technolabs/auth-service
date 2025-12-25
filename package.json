@@ -15,5 +15,9 @@
     "url": "https://github.com/harshal-mamo-technolabs/auth-service/issues"
   },
   "homepage": "https://github.com/harshal-mamo-technolabs/auth-service#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
 }
