@@ -1,10 +1,10 @@
-console.log("welcome to full stack engineering");
+import Config from "./config/index.js";
+import app from "./app.js";
 
-const user = {
-  name: "harshal",
-};
+function startHttpServer() {
+  app.listen(Config.PORT, () => {
+    console.log(`Server is running on port ${Config.PORT}`);
+  });
+}
 
-console.log(user.name);
-console.log(user.name);
-console.log(user.name);
-console.log(user.name);
+startHttpServer();

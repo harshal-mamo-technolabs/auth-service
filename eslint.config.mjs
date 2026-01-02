@@ -16,8 +16,5 @@ export default defineConfig(
         tsconfigRootDir: import.meta.dirname,
       },
     },
-    rules: {
-      "dot-notation": "error",
-    },
   },
 );
